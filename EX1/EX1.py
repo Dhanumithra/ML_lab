@@ -9,6 +9,8 @@ df = pd.read_csv(r"D:\SEM_5\ML\datasets\Table_data\student_data.csv")
 print("First 10 Records:")
 print(df.head(10))
 
+print(df.dtypes)
+
 # 3. Number of rows and columns
 rows, cols = df.shape
 print("\nNumber of Rows:", rows)
