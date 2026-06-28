@@ -6,6 +6,8 @@ EX - 1.b csv file data given but text dataset is given in question, took only re
 
 Ex - 1.c done
 
-Ex - 2.a not sure yet
+Ex - 2.a done
 
-Ex - 2.b not sure yet
+Ex - 2.b done
+
+Ex - 3 done
