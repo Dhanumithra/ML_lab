@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+
 df = pd.read_csv(r"D:\SEM_5\ML\datasets\Table_data\student_data.csv")
 
 # 2. Display the first 10 records
