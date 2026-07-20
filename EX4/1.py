@@ -32,6 +32,7 @@ print(pca_df)
 # 6. Find the explained variance ratio
 print(pca.explained_variance_ratio_)
 
+
 # 7. Calculate total variance retained
 total_variance = pca.explained_variance_ratio_.sum()
 print("Total Variance Retained:", total_variance * 100)
