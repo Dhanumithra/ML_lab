@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 # 1. Read the dataset
 df = pd.read_csv(r"D:\SEM_5\ML\datasets\Text_data\IMDB Dataset.csv")
 reviews = df['review']
-text = " ".join(reviews.astype(str))
+text = ". ".join(reviews.astype(str))
 
 # 2. Count the number of sentences
 sentences = sent_tokenize(text)
