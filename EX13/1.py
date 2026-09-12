@@ -72,3 +72,8 @@ def predict_custom_image(image_path, model):
     plt.axis('off')
     plt.show()
     return predicted_digit
+
+sample_img = Image.fromarray(X_test[3])
+sample_img.save("new_digit.png")
+predicted_digit = predict_custom_image("new_digit.png", model)
+print(f"Predicted Digit: {predicted_digit}")
